@@ -1,0 +1,77 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+}
+
+.App-nav {
+  background-color: #333;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap; 
+}
+.App-nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.App-nav ul li {
+  margin: 0;
+}
+
+.App-nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.App-nav ul li a:hover {
+  background-color: #555;
+  border-radius: 5px; 
+}
+
+.App-logo {
+  height: 40px; 
+  margin-left: 20px;
+}
+
+.App-logo {
+  height: 40px;
+  margin-right: 20px;
+}
+
+h1 {
+  color: white;
+  margin: 0;
+}
+
+h4 {
+  text-align: center;
+}
+
+
+.about-text {
+  text-align: center;
+  font-size: 24px; 
+  color: #333; 
+  font-family: 'Arial', sans-serif;  
+  line-height: 1.5; 
+  padding: 20px; 
+  background-color: #f9f9f9; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  margin: 20% auto; 
+  max-width: 600px; 
+}

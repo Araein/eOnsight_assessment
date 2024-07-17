@@ -1,0 +1,89 @@
+
+
+.leaflet-container {
+    width: 80%;
+    height: 100%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.bridge-details-container {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    gap: 20px;
+    margin: 20px auto;
+    max-width: 80%;
+}
+
+.bridge-name {
+    font-size: 2.5em;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold; 
+    color: #333;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.info-container {
+    height: 100%;
+    padding: 20px; 
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.info-container p {
+    margin: 20px 0;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.edit-button, .delete-button {
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+    color: white; 
+    text-decoration: none;
+    font-size: 1em;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.delete-button {
+    background-color: #cf1a1a; 
+}
+
+.edit-button {
+    background-color: #6c757d;
+}
+
+.edit-button:hover, .delete-button:hover {
+    filter: brightness(0.8);
+    cursor: pointer;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.subtitle {
+    font-weight: bold;
+    color: #555;
+}
+
+.info-value {
+    color: #777;
+}
